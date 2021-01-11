@@ -1,0 +1,68 @@
+.footer {
+  width: 100%;
+  height: 50vh;
+  margin:  0 0;
+  padding: 60px 15px 45px 15px;
+  background-color: $dark-blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .list-links1{
+      padding: 0 0 20px 0;
+
+  }
+  .list-links2{
+    padding: 20px 0 20px 0;
+
+}
+
+.link-footer{
+    width: 100%;
+    height: 150px;
+    margin: 0 108px 30px 109px;
+    font-family: $font-main;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    color: $white;
+    text-transform: uppercase;
+    list-style-type: none; // por qué no funciona?
+    text-align: center;
+    text-decoration: none;
+}
+// copyright y .we-components tienen exactamente el mismo formato hasta ahora
+.copyright{
+  width: 77px;
+  height: 30px;
+  margin: 30px 107px 0 106px;
+  padding: 20px 0 0 0;
+  font-family: $font-main;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+}
+.we-components{
+  width: 77px;
+  height: 30px;
+  margin: 30px 107px 0 106px;
+  font-family: $font-main;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+
+}
+}
