@@ -4,12 +4,12 @@
    height: 568px;
    padding: 0 15px 53px 0;
    background-blend-mode: multiply;
-}
+
 .hero-column {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+
 .hero-tittle {
   width: 290px;
   height: 110px;
@@ -24,7 +24,6 @@
   color: $white;
   margin: 300px 0 0 0 ;
   text-transform: uppercase;
-  text-shadow: 0 2px 3px $shadow;
 }
 // falta poner shadow y background-color: $white;??¿¿?
 
@@ -41,9 +40,6 @@
     text-align: center;
     color: $white;
   }  
-  .hero-scroll{
-    object-fit: contain;
-}
 .hero-scroll{
   display: flex;
   flex-direction: column;
@@ -52,6 +48,8 @@
   background-color: $white; 
   width: 45px;
   height: 45px;
-  transform: translate(170px);
   border-radius: 50%;
+  object-fit: contain;
 }
+}
+  }
