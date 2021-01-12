@@ -6,18 +6,30 @@
   background-color: $dark-blue;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
 
-  .list-links1{
-      padding: 0 0 20px 0;
+  .arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $white; 
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
 
   }
+  
+  .list-links1{
+      padding: 0 0 20px 0;
+    }
   .list-links2{
     padding: 20px 0 20px 0;
-
-}
-
-.link-footer{
+   }
+   .footer-list {
+    list-style-type: none;
+  }
+   .link-footer{
     width: 100%;
     height: 150px;
     margin: 0 108px 30px 109px;
@@ -32,23 +44,7 @@
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-}
-// copyright y .we-components tienen exactamente el mismo formato hasta ahora
-.copyright{
-  width: 77px;
-  height: 30px;
-  margin: 30px 107px 0 106px;
-  padding: 20px 0 0 0;
-  font-family: $font-main;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.14;
-  letter-spacing: normal;
-  text-align: center;
-  color: $white;
-}
+  }
 .we-components{
   width: 77px;
   height: 30px;
@@ -60,11 +56,7 @@
   font-style: normal;
   line-height: 2.14;
   letter-spacing: normal;
-  text-align: center;
   color: $white;
-
+  flex-wrap: wrap;
 }
-}
-.footer-list {
-  list-style-type: none;
 }
