@@ -1,0 +1,12 @@
+.header{ 
+    background-color: $black; 
+    position: fixed;
+    z-index: 5000;
+}
+.header-img{
+    width: 44px;
+    height: 44px;
+    padding: 15px 14px;
+    background-color: $cerulean;
+    
+}

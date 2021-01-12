@@ -1,8 +1,57 @@
-.hero {
-    width: 100%;
+  .hero {
+   background : url(../images/cover.jpg) center / cover;
+   width: 100%;
+   height: 568px;
+   padding: 0 15px 53px 0;
+   background-blend-mode: multiply;
+}
+.hero-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-tittle {
+  width: 290px;
+  height: 110px;
+  font-family: $font-section;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+  margin: 300px 0 0 0 ;
+  text-transform: uppercase;
+  text-shadow: 0 2px 3px $shadow;
+}
+// falta poner shadow y background-color: $white;??¿¿?
+
+.hero-claim{
     
-    padding: 0 15px 53px 0;
-    background-blend-mode: multiply;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 25%, var(--k));
-    
+    margin: 10px 0 45px 15px;
+    font-family: $font-main;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white;
+  }  
+  .hero-scroll{
+    object-fit: contain;
+}
+.hero-scroll{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $white; 
+  width: 45px;
+  height: 45px;
+  transform: translate(170px);
+  border-radius: 50%;
 }
