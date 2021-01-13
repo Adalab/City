@@ -71,8 +71,10 @@
   padding: 0 25px 0 26px;
   border-radius: 22.5px;
   border: solid 2px $border;
-  background-color: $white; 
-  @media all and (min-width: 768px) {
+  background-color: $white;
+  
+  @media all and (min-width: 
+  768px) {
     width: 91px;
     margin: 30px 599px 0 0;
     padding: 0 32.5px 0 33.5px;
@@ -87,6 +89,9 @@
   line-height: 2.25;
   text-align: center;
   color: $border;
+  text-decoration: none;
+  transition: background-color .5s, color 1s; 
+  
   @media all and (min-width: 1200px) {
     width: 25px;
     padding-left: 50px;
