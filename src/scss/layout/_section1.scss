@@ -1,32 +1,32 @@
-.section1{
+.section1 {
   width: 100%;
   padding: 30px 15px 45px;
   @media all and (min-width: 768px) {
-    height: 330px; 
+    height: 330px;
   }
   @media all and (min-width: 1200px) {
     height: 360px;
     padding: 60px 275px;
   }
-.tittle2{
-  font-family: $font-main;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.14;
-  letter-spacing: normal;
-  color: $insomnia;
-  @media all and (min-width: 768px) {
-  margin-left: 15px;
+  .tittle2 {
+    font-family: $font-main;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    color: $insomnia;
+    @media all and (min-width: 768px) {
+      margin-left: 15px;
+    }
+    @media all and (min-width: 1200px) {
+      height: 30px;
+      font-size: 16px;
+      line-height: 1.88;
+    }
   }
-  @media all and (min-width: 1200px) {
-    height: 30px;
-    font-size: 16px;
-    line-height: 1.88;
-  }
-}
-.h2-section1{
+  .h2-section1 {
     width: 290px;
     height: 60px;
     margin: 1px 0 15px;
@@ -35,7 +35,7 @@
     font-weight: bold;
     line-height: 1.25;
     color: $black;
-    text-transform:  capitalize;
+    text-transform: capitalize;
     @media all and (min-width: 768px) {
       width: 100%;
       font-size: 26px;
@@ -46,57 +46,59 @@
       height: 45px;
       font-size: 32px;
     }
-}
-.paragraph1{  
-  margin: 15px 0 30px;
-  font-family: $font-main;
-  font-size: 18px;
-  line-height: 1.67;
-  color: $greyish-brown; 
-  @media all and (min-width: 768px) {
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 0 15px 30px;
-    width: 60%;
   }
-  @media all and (min-width: 1200px) {
-    height: 60px;
-    width: 100%;
+  .paragraph1 {
+    margin: 15px 0 30px;
+    font-family: $font-main;
+    font-size: 18px;
+    line-height: 1.67;
+    color: $greyish-brown;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+      line-height: 1.5;
+      margin: 0 15px 30px;
+      width: 60%;
+    }
+    @media all and (min-width: 1200px) {
+      height: 60px;
+      width: 100%;
+    }
   }
-}
-.div-go{
-  width: 76px;
-  height: 45px;
-  margin: 30px 214px 0 0;
-  padding: 0 25px 0 26px;
-  border-radius: 22.5px;
-  border: solid 2px $border;
-  background-color: $white;
-  
-  @media all and (min-width: 
-  768px) {
-    width: 91px;
-    margin: 30px 599px 0 0;
-    padding: 0 32.5px 0 33.5px;
+  .div-go {
+    width: 76px;
+    height: 45px;
+    margin: 30px 214px 0 0;
+    padding: 0 25px 0 26px;
+    border-radius: 22.5px;
+    border: solid 2px $border;
+    background-color: $white;
+    flex-direction: column;
+
+    @media all and (min-width: 768px) {
+      width: 91px;
+      margin: 30px 599px 0 0;
+      padding: 0 32.5px 0 33.5px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 160px;
+    }
+    .button1 {
+      font-family: $font-go;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2.25;
+      text-align: center;
+      color: $border;
+      text-decoration: none;
+      transition: background-color 0.5s, color 1s;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      @media all and (min-width: 1200px) {
+        width: 25px;
+        padding-left: 25px;
+      }
+    }
   }
-  @media all and (min-width: 1200px) {
-    width: 160px;
-  }
-.button1{
-  font-family: $font-go;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 2.25;
-  text-align: center;
-  color: $border;
-  text-decoration: none;
-  transition: background-color .5s, color 1s; 
-  
-  @media all and (min-width: 1200px) {
-    width: 25px;
-    padding-left: 50px;
-  
-   }
-  }
-}
 }
