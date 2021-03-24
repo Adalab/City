@@ -86,13 +86,13 @@
     height: 45px;
     border-radius: 22.5px;
     background-color: $border;
-    margin: 10px 0 0 35px;
-    padding-left: 20px;
+    padding-left: 5px;
 
     @media all and (min-width: 768px) {
       grid-row: 3 / 4;
       width: 210px;
       grid-gap: 30px;
+      margin-left: 50px;
       @media all and (min-width: 1200px) {
         width: 255px;
         margin: 10px 0 0 40px;
